@@ -1,5 +1,5 @@
 # Autofollow-Bot-for-Instagram
-You can install modules in the pycharm terminal using “Pip install <module name>
+You can install modules in the pycharm terminal using "pip install <module name>"
 In this case the module name is Selenium so: 
 pip install Selenium
 
