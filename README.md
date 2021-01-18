@@ -8,7 +8,7 @@ A simple autofollow bot for [Instagram](https://www.instagram.com/).
 * PIP3
 
 ### Installing
-* Make a git clone or dowloand the sip of the proyect
+* Make a git clone or dowloand the zip of the proyect
 * Install Selenium module:
 ```bash
 pip install Selenium
