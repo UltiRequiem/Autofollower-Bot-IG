@@ -5,7 +5,6 @@ def run():
     driver = webdriver.Chrome(executable_path="./path")
     driver.get("https://instagram.com")
     sleep(4)
-    
     driver.find_element_by_xpath("//input[@name=\"username\"]")\
             .send_keys("Your Username")
     driver.find_element_by_xpath("//input[@name=\"password\"]")\
@@ -19,7 +18,7 @@ def run():
     sleep(3)
 
     for item in range(3):
-        for item in range(5):
+        for i in range(5):
             driver.find_element_by_xpath('//button[text()="Follow"]')\
                     .click()
         sleep(1)
